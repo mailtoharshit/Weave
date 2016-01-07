@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+<apex:page standardStylesheets="false" showHeader="false" applyHtmlTag="false" docType="html-5.0">
+   	<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    	
+	    <head>
+	        <meta charset="utf-8">
+	        <meta name="viewport" content="width=device-width, initial-scale=1">
+	        <!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		</head>
+	    <body>
+	        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	        <!-- Latest compiled and minified JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	    </body>
+	</html>
+</apex:page>
+]]></content>
+    <tabTrigger>sf_bootstrap</tabTrigger>
+    <scope>text.html</scope>
+</snippet>
