@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<apex:page standardStylesheets="false" showHeader="false" applyHtmlTag="false" docType="html-5.0">
+<apex:page standardStylesheets="false" showsidebar="false" showHeader="false" applyHtmlTag="false" docType="html-5.0">
    	<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    	
 	    <head>
 	        <meta charset="utf-8">
