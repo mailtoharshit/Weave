@@ -49,5 +49,4 @@
 </apex:page>
 ]]></content>
     <tabTrigger>sf_mdl_withheader</tabTrigger>
-    <scope>text.html</scope>
 </snippet>

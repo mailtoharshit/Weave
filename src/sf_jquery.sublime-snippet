@@ -13,5 +13,4 @@
 </apex:page>
 ]]></content>
     <tabTrigger>sf_jquery</tabTrigger>
-    <scope>text.html</scope>
 </snippet>

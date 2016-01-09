@@ -52,5 +52,4 @@
 </apex:page>
 ]]></content>
     <tabTrigger>sf_mdl_fixedtabs</tabTrigger>
-    <scope>text.html</scope>
 </snippet>

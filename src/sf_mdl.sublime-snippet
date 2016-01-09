@@ -16,5 +16,4 @@
 </apex:page>
 ]]></content>
     <tabTrigger>sf_mdl</tabTrigger>
-    <scope>text.html</scope>
 </snippet>

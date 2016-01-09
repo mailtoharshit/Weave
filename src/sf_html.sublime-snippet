@@ -12,5 +12,4 @@
 </apex:page>
 ]]></content>
     <tabTrigger>sf_html</tabTrigger>
-    <scope>text.html</scope>
 </snippet>
