@@ -3,10 +3,13 @@
 <apex:page showheader="false" sidebar="false" standardStylesheets="false">
   <html>
     <head>
-      <!-- Material Design Lite -->
-      <link rel="stylesheet" href="//storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css" />
-      <!-- Material Design icon font -->
-      <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons" />
+            <!-- ---------- Material Design with Header  --------- -->  
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css"/>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+            <!-- Import MDL-Lite Javascript from RawGit -->
+            <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
     </head>
     <body>
       <!-- Uses a header that scrolls with the text, rather than staying
