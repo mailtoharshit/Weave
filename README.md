@@ -23,12 +23,12 @@ That generates:
 
     <apex:page standardStylesheets="false" showsidebar="false" showHeader="false" applyHtmlTag="false" docType="html-5.0">
      	<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    	
-        <head>
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-        </head>
-        <body>
-        </body>
+            <head>
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+            </head>
+            <body>
+            </body>
       </html>
     </apex:page>
 
