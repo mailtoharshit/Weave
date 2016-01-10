@@ -1,0 +1,9 @@
+
+<snippet>
+    <content><![CDATA[
+List<${1:sObject}> ${2:query} = [SELECT Id FROM $1 WHERE $3 $4];
+]]></content>
+    <tabTrigger>SOQL</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Weave SOQL query</description>
+</snippet>

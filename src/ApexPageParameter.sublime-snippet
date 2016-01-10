@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+String ${1:sObjId} = ApexPages.currentPage().getParameters().get('${2:Id}');
+]]></content>
+	<tabTrigger>ApexPage</tabTrigger>
+	<scope>source.apex</scope>
+	<description>Get Paramater from Current Page</description>
+</snippet>

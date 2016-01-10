@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+String ${1:soql} = 'SELECT ';
+for(String fieldName : Schema.getGlobalDescribe().get(${2:sObjectName}).getDescribe().fields.getMap().keySet()) {
+	${1:soql} += fieldName + ', ';
+}
+${1:soql} = ${1:soql}.left(${1:soql}.lastIndexOf(','));
+${1:soql} += ' FROM ' + ${2:sObjectName} + ' WHERE Id = \'' + ${3:sObjId} + '\'' + ' LIMIT 1000';
+List<${4:sObjectName}> ${5:sObjectList} = (List<${4:sObjectName}>) Database.query(${1:soql});
+]]></content>
+	<tabTrigger>SOQLDynamic</tabTrigger>
+	<scope>source.apex</scope>
+	<description>Weave Dynamic SOQL</description>
+</snippet>

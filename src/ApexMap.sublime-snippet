@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Map<${1:Id}, ${2:SObject}> ${3:sObjectMap} = new Map<${1:Id}, ${2:SObject}>();
+]]></content>
+	<tabTrigger>Map</tabTrigger>
+	<scope>source.apex</scope>
+	<description>Classic Apex Map</description>
+</snippet>

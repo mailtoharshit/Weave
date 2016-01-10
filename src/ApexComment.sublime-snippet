@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:purpose}
+ * @author ${2:$TM_FULLNAME}
+ * @param ${3:paramName} : ${4:param explanation}
+ * @return ${5:}
+ */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>/*</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
