@@ -1,0 +1,14 @@
+<snippet>
+	<content>
+trigger ${1:TriggerName} on ${2:SObject} (${3:events})
+{
+	for(${2:SObject} ${4:obj} : Trigger.new)
+		{
+			${5://bulkified code}
+		}
+}
+	</content>
+<tabTrigger>trigger</tabTrigger>
+	<scope>source.apex</scope>
+	<description>Weave Apex Trigger</description>
+</snippet>

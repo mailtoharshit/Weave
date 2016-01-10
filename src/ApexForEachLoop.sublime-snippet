@@ -1,0 +1,11 @@
+<snippet>
+	<content>
+for(${1:SObject} ${2:obj} : ${3:sObjList})
+	{
+		$4
+	}
+</content>
+<tabTrigger>forEach</tabTrigger>
+	<scope>source.apex</scope>
+	<description>Weave Apex ForEach Loop</description>
+</snippet>

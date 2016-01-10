@@ -1,0 +1,14 @@
+<snippet>
+	<content>
+public with sharing class ${1:ClassName}
+{
+	public ${1:ClassName}()
+	{
+		${2://constructor code}
+	}
+}
+</content>
+<tabTrigger>class</tabTrigger>
+	<scope>source.apex</scope>
+	<description>Classic Apex Class</description>
+</snippet>

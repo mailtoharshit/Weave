@@ -1,0 +1,15 @@
+<snippet>
+	<content>
+@isTest
+public class Test_${1:ClassToTest}
+{
+	static testMethod void test_${2:methodToTest}
+	{
+		$3
+	}
+}
+</content>
+<tabTrigger>test</tabTrigger>
+	<scope>source.apex</scope>
+	<description>Weave Apex TestClass</description>
+</snippet>
