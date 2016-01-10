@@ -1,5 +1,5 @@
 # Weave
-A Sublime Text snippet to generate the Visualforce Boilerplate Code
+Snippets to generate the Salesforce Boilerplate Code
 
 ## Install
 
