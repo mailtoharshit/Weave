@@ -1,6 +1,8 @@
 # Weave
 Snippets to generate the Salesforce Boilerplate Code
 
+[<img src="http://i.imgur.com/sCOjb0V.jpg?1" align="center" width="100%">](https://login.salesforce.com/)
+
 ## Install
 
 ### Option 1: Manual
