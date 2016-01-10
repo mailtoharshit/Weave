@@ -13,7 +13,7 @@
             // Create a new Remote Object
             var rec = new SObjectModel.Warehouse();
             
-            // Use the Remote Object to query for 10 rectact records
+            // Use the Remote Object to query records
             rec.retrieve({ limit: ${3:limitRecords} }, function(err, records, event){
                 if(err) {
                     alert(err.message);
