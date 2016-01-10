@@ -1,14 +1,44 @@
 <snippet>
-	<content>
-trigger ${1:TriggerName} on ${2:SObject} (${3:events})
-{
-	for(${2:SObject} ${4:obj} : Trigger.new)
-		{
-			${5://bulkified code}
-		}
+    <content><![CDATA[
+/**
+ * ${1:TriggerName}
+ * @description ${2:A description of the Trigger }
+ */
+
+trigger ${3:sObject}Trigger on ${4:sObject} (after delete, after insert, after undelete, 
+after update, before delete, before insert, before update) {
+	${3:sObject}TriggerHandler handler = new ${3:sObject}TriggerHandler(Trigger.isExecuting, Trigger.size);
+	
+	if(Trigger.isInsert && Trigger.isBefore){
+		handler.OnBeforeInsert(Trigger.new);
+	}
+	else if(Trigger.isInsert && Trigger.isAfter){
+		handler.OnAfterInsert(Trigger.new);
+		${3:sObject}TriggerHandler.OnAfterInsert(Trigger.newMap.keySet());
+	}
+	
+	else if(Trigger.isUpdate && Trigger.isBefore){
+		handler.OnBeforeUpdate(Trigger.old, Trigger.new, Trigger.newMap);
+	}
+	else if(Trigger.isUpdate && Trigger.isAfter){
+		handler.OnAfterUpdate(Trigger.old, Trigger.new, Trigger.newMap);
+		${3:sObject}TriggerHandler.OnAfterUpdate(Trigger.newMap.keySet());
+	}
+	
+	else if(Trigger.isDelete && Trigger.isBefore){
+		handler.OnBeforeDelete(Trigger.old, Trigger.oldMap);
+	}
+	else if(Trigger.isDelete && Trigger.isAfter){
+		handler.OnAfterDelete(Trigger.old, Trigger.oldMap);
+		${3:sObject}TriggerHandler.OnAfterDelete(Trigger.oldMap.keySet());
+	}
+	
+	else if(Trigger.isUnDelete){
+		handler.OnUndelete(Trigger.new);	
+	}
 }
-	</content>
-<tabTrigger>trigger</tabTrigger>
-	<scope>source.apex</scope>
-	<description>Weave Apex Trigger</description>
+]]></content>
+    <tabTrigger>Trigger</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Weave a Template Trigger</description>
 </snippet>

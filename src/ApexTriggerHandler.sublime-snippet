@@ -1,0 +1,80 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:TriggerName}
+ * @description ${2:A description of the Trigger }
+ */
+ 
+public with sharing class ${3:sObject}TriggerHandler {
+	private boolean m_isExecuting = false;
+	private integer BatchSize = 0;
+	
+	public ${3:sObject}TriggerHandler(boolean isExecuting, integer size){
+		m_isExecuting = isExecuting;
+		BatchSize = size;
+	}
+		
+	public void OnBeforeInsert(){
+		
+	}
+	
+	public void OnAfterInsert(){
+		
+	}
+	
+	public static void OnAfterInsert(){
+		
+	}
+	
+	public void OnBeforeUpdate(${3:sObject}[] old${3:sObject}, ${3:sObject}[] updated${3:sObject}s, Map<ID, ${3:sObject}> ${3:sObject}Map){
+		//Example Map usage
+		Map<ID, Contact> contacts = new Map<ID, Contact>( [select Id, FirstName, LastName, Email from Contact where ${3:sObject}Id IN :${3:sObject}Map.keySet()] );
+	}
+	
+	public void OnAfterUpdate(){
+		
+	}
+	
+	//Overriding method - Sample
+	@future public static void OnAfterUpdate(Set<ID> updated${3:sObject}IDs){
+		List<${3:sObject}> updated${3:sObject}s = [select Id, Name from ${3:sObject} where Id IN :updated${3:sObject}IDs];
+	}
+	
+	public void OnBeforeDelete(){
+		
+	}
+	
+	public void OnAfterDelete(){
+		
+	}
+	
+	public static void OnAfterDelete(){
+		
+	}
+	
+	public void OnUndelete(){
+		
+	}
+	
+	public boolean IsTriggerContext{
+		get{ return m_isExecuting;}
+	}
+	
+	public boolean IsVisualforcePageContext{
+		get{ return !IsTriggerContext;}
+	}
+	
+	public boolean IsWebServiceContext{
+		get{ return !IsTriggerContext;}
+	}
+	
+	public boolean IsExecuteAnonymousContext{
+		get{ return !IsTriggerContext;}
+	}
+}
+
+]]></content>
+    <tabTrigger>TriggerHandler</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Weave a Template Trigger Handler</description>
+</snippet>
