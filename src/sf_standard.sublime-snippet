@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<apex:page standardController="${1}" standardStylesheets="${2}" showsidebar="${3}" showHeader="${4}" applyHtmlTag="${5}" docType="html-5.0">
+   	<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    	
+	    <head>
+	        <meta charset="utf-8" />
+	        <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+	    </head>
+	    <body>
+	    </body>
+	</html>
+</apex:page>
+]]></content>
+    <tabTrigger>sf_standard</tabTrigger>
+    <description>Page with StandardController</description>
+</snippet>

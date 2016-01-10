@@ -14,4 +14,5 @@
 ]]></content>
     <tabTrigger>sf_jquery</tabTrigger>
     <scope>text.html</scope>
+    <description>Visualforce with Jquery</description>
 </snippet>

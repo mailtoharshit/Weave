@@ -17,4 +17,5 @@
 ]]></content>
     <tabTrigger>sf_mdl</tabTrigger>
     <scope>text.html</scope>
+    <description>VisualForce with Material Design</description>
 </snippet>
