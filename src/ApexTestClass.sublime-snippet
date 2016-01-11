@@ -9,7 +9,7 @@ public class Test_${1:ClassToTest}
 	}
 }
 </content>
-<tabTrigger>test</tabTrigger>
+<tabTrigger>testClass</tabTrigger>
 	<scope>source.apex</scope>
 	<description>Weave Apex TestClass</description>
 </snippet>
