@@ -4,5 +4,5 @@ Set<${1:SObject}> ${2:sObjectSet} = new Set<${1:SObject}>();
 ]]></content>
 	<tabTrigger>Set</tabTrigger>
 	<scope>source.apex</scope>
-	<description>Class Apex Set</description>
+	<description>Weave Apex Set</description>
 </snippet>

@@ -12,7 +12,6 @@
 	</html>
 </apex:page>
 ]]></content>
-    <tabTrigger>sf_jquery</tabTrigger>
-    <scope>text.html</scope>
-    <description>Visualforce with Jquery</description>
+    <tabTrigger>vf_jquery</tabTrigger>
+    <description>Weave Visualforce with Jquery</description>
 </snippet>

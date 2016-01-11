@@ -11,6 +11,6 @@
 	</html>
 </apex:page>
 ]]></content>
-    <tabTrigger>sf_standard</tabTrigger>
-    <description>Page with StandardController</description>
+    <tabTrigger>vf_standard</tabTrigger>
+    <description>Weave Visualforce Page with StandardController</description>
 </snippet>

@@ -4,5 +4,5 @@ List<${1:SObject}> ${2:sObjectList} = new List<${1:SObject}>();
 ]]></content>
 	<tabTrigger>List</tabTrigger>
 	<scope>source.apex</scope>
-	<description>Classic Apex new List</description>
+	<description>Weave Apex new List</description>
 </snippet>

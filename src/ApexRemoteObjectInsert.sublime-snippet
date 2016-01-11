@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+    var ctDetails = { FirstName: 'Marc', LastName: 'Benioff' };
+    var ct = new RemoteObjectModel.${1}();
+    ct.create(ctDetails, function(err) {
+    if(err) { 
+        console.log(err);
+        alert(err.message);
+    }
+    else {
+        // this is the contact
+        var ctDetails = 'JSON String'
+        // Call create() on an existing ${1} model, with no arguments
+        var ct = new RemoteObjectModel.${1}(ctDetails);
+        ct.create();
+
+        // Call create() on an empty ${1} model, passing in field values
+        var ct = new RemoteObjectModel.${1}();
+        ct.create(ctDetails);
+    }
+});
+]]></content>
+    <tabTrigger>Remote Insert</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Weave Insert Remote Object</description>
+</snippet>

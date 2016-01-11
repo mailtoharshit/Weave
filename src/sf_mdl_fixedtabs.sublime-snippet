@@ -69,7 +69,6 @@
   </html>
 </apex:page>
 ]]></content>
-    <tabTrigger>sf_mdl_fixedtabs</tabTrigger>
-    <scope>text.html</scope>
-    <description>Material Design with Fixed Tabsr</description>
+    <tabTrigger>vf_mdl_fixedtabs</tabTrigger>
+    <description>Weeave Material Design with Fixed Tabsr</description>
 </snippet>

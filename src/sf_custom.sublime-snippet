@@ -11,6 +11,6 @@
 	</html>
 </apex:page>
 ]]></content>
-    <tabTrigger>sf_custom</tabTrigger>
-    <description>Visualforce with CustomController</description>
+    <tabTrigger>vf_custom</tabTrigger>
+    <description>Weave Visualforce with CustomController</description>
 </snippet>

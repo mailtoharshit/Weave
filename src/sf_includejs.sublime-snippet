@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<apex:includeScript value="{!$Resource.${1:YourJavascriptFile}}"/>
+
+//if Zipped Folder
+<apex:includeScript value="{!URLFOR($Resource.${1:StaticFolder}}, '${2:/src/js/jquery.js}')}"/>
+
+]]></content>
+    <tabTrigger>vf_includcss</tabTrigger>
+    <description>Weave Import JS from Static Resource</description>
+</snippet>

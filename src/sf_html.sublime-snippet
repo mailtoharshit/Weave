@@ -11,5 +11,6 @@
 	</html>
 </apex:page>
 ]]></content>
-    <tabTrigger>sf_html</tabTrigger>
+    <tabTrigger>vf_html</tabTrigger>
+    <description>Weave HTML Template</description>
 </snippet>

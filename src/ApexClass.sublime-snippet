@@ -10,5 +10,5 @@ public with sharing class ${1:ClassName}
 </content>
 <tabTrigger>class</tabTrigger>
 	<scope>source.apex</scope>
-	<description>Classic Apex Class</description>
+	<description>Weave Apex Class</description>
 </snippet>

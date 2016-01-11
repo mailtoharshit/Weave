@@ -16,6 +16,6 @@
 	</html>
 </apex:page>
 ]]></content>
-    <tabTrigger>sf_bootstrap</tabTrigger>
-    <scope>text.html</scope>
+    <tabTrigger>vf_bootstrap</tabTrigger>
+    <description>Weave Bootstrap Tempalate</description>
 </snippet>

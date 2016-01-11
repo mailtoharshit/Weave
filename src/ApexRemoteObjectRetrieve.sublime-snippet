@@ -35,7 +35,7 @@
     <ul id="${4:divtoAttach}">
     </ul>
 ]]></content>
-    <tabTrigger>RemoteObject</tabTrigger>
+    <tabTrigger>RemoteRetrieve</tabTrigger>
     <scope>source.apex</scope>
-    <description>Weave Remote Object</description>
+    <description>Weave Retrieve Remote Object</description>
 </snippet>

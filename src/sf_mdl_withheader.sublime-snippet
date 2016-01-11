@@ -51,7 +51,6 @@
   </html>
 </apex:page>
 ]]></content>
-    <tabTrigger>sf_mdl_withheader</tabTrigger>
-    <scope>text.html</scope>
-    <description>Material Design with Headerr</description>
+    <tabTrigger>vf_mdl_withheader</tabTrigger>
+    <description>Weave Material Design with Headerr</description>
 </snippet>

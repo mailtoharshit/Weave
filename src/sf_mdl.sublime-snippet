@@ -15,7 +15,6 @@
 	</html>
 </apex:page>
 ]]></content>
-    <tabTrigger>sf_mdl</tabTrigger>
-    <scope>text.html</scope>
-    <description>VisualForce with Material Design</description>
+    <tabTrigger>vf_mdl</tabTrigger>
+    <description>Weave VisualForce with Material Design</description>
 </snippet>
