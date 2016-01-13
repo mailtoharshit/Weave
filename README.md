@@ -1,7 +1,9 @@
-# Weave
+
 [<img src="https://raw.githubusercontent.com/mailtoharshit/Weave/gh-pages/images/README.JPG" align="center" width="100%">](https://login.salesforce.com/)
 
-Snippets to generate the Salesforce Boilerplate Code
+# Weave 
+A `.snippet` magician. Weave generates `.code-snippets` so that you type less and write more code.
+
 ## Install
 
 ### Option 1: Manual
