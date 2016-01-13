@@ -3,6 +3,8 @@
 
 # Weave 
 ====
+
+[![Join the chat at https://gitter.im/mailtoharshit/Weave](https://badges.gitter.im/mailtoharshit/Weave.svg)](https://gitter.im/mailtoharshit/Weave?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A `.snippet` magician. Weave generates `.code-snippets` so that you type less and write more code.
 
 ## Features
