@@ -35,7 +35,7 @@ A `.snippet` magician. Weave generates `.code-snippets` so that you type less an
 ## Installation
 
 1. [Install Package Control](https://sublime.wbond.net/installation)
-2. Install Weave
+2. Install Weave, in the command pallette (Cmd-Shift+P on Mac) type 'Install' then press enter to see a list of packages. Search for 'Weave' then press enter to install.
 
     | Platform | Install Command                                                      |
     | -------- | -------------------------------------------------------------------- |
@@ -70,11 +70,13 @@ In the command pallette (Cmd-Shift+P on Mac) type 'Install' then press enter to 
 
 With a blank .apex or .page file, type
 
-    supported keywords
+    (see supported commands)[http://mailtoharshit.github.io/Weave/commands.html]
 
 and press `TAB`to generate boilerplate code.
 
-Read complete description 
+Read complete set of commands here 
+[<img src="https://raw.githubusercontent.com/mailtoharshit/Weave/gh-pages/images/commands.png" align="center" width="100%">](https://login.salesforce.com/)
+
 
 ## License 
 
