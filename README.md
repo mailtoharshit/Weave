@@ -56,26 +56,16 @@ A `.snippet` magician. Weave generates `.code-snippets` so that you type less an
     ![Disabling Weave package](http://g.recordit.co/sfr82D9FaG.gif)
     
 
-## Install
-
-### Option 1: Manual
-
-Copy the files to your Packages directory.
-
-### Option 2: Package Control
-
-In the command pallette (Cmd-Shift+P on Mac) type 'Install' then press enter to see a list of packages. Search for 'Weave' then press enter to install.
-
 ## Usage
 
 With a blank .apex or .page file, type
 
-    (see supported commands)[http://mailtoharshit.github.io/Weave/commands.html]
+    'click image below to see full list of supported commands'
 
 and press `TAB`to generate boilerplate code.
 
 Read complete set of commands here 
-[<img src="https://raw.githubusercontent.com/mailtoharshit/Weave/gh-pages/images/commands.png" align="center" width="100%">](https://login.salesforce.com/)
+[<img src="https://raw.githubusercontent.com/mailtoharshit/Weave/gh-pages/images/commands.png" align="center" width="100%">](http://mailtoharshit.github.io/Weave/commands.html)
 
 
 ## License 
