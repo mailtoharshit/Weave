@@ -2,7 +2,42 @@
 [<img src="https://raw.githubusercontent.com/mailtoharshit/Weave/gh-pages/images/README.JPG" align="center" width="100%">](https://login.salesforce.com/)
 
 # Weave 
+====
 A `.snippet` magician. Weave generates `.code-snippets` so that you type less and write more code.
+
+## Features
+
+* __Absurdly Complete__: We basically wrote template to generates powerful layout using material design
+    and resolved day to day problem on writing lot of visualforce code, which for *years* we waited for Salesfroce to give.
+    if it's in the spec, it's supported or will be added
+* __Productive__: Speed up your salesforce development with quick commands, less pain on typing and maintaining code consistency
+* __Modern__: Uses Material Design Layout and abrest of latest of frameworks.
+
+
+## Before & After
+
+![before and after 1](http://g.recordit.co/Kw2R4zfIIN.gif)
+
+http://g.recordit.co/Kw2R4zfIIN.gif
+http://g.recordit.co/89JzgDI5Gx.gif
+http://mailtoharshit.github.io/Weave/images/vf_custom.gif
+## Features
+
+- Generates custom and standard visualforce boilerplate template
+- Generates Material design ready templates
+- Generates Jquery and Bootstrap ready visualforce templates
+
+### Apex Code Snippets 
+- Powerful Trigger and Trigger Handles class templates
+- Support many more keywords to generates SOQL, Apex, Comment and more 
+- Easy to install
+- Stupidly easy to use, generates templates and keep pressing tab to see the magic
+
+## Installation
+
+### Option 1: PackageControl.io 
+
+In
 
 ## Install
 
