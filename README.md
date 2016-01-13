@@ -64,7 +64,8 @@ With a blank .apex or .page file, type
 
 and press `TAB`to generate boilerplate code.
 
-Read complete set of commands here 
+Click image below to load (full list)[http://mailtoharshit.github.io/Weave/commands.html]
+
 [<img src="https://raw.githubusercontent.com/mailtoharshit/Weave/gh-pages/images/commands.png" align="center" width="100%">](http://mailtoharshit.github.io/Weave/commands.html)
 
 
