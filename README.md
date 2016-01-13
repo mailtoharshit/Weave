@@ -46,7 +46,7 @@ A `.snippet` magician. Weave generates `.code-snippets` so that you type less an
 
     ![Installing the Weave Package](http://g.recordit.co/mu0axEJZCo.gif)
     
-3. (Recommended) Disable the default CSS package
+3. Disable Weave package
 
     | Platform | Disable Command                                                      |
     | -------- | -------------------------------------------------------------------- |
