@@ -1,5 +1,5 @@
 
-[<img src="https://raw.githubusercontent.com/mailtoharshit/Weave/gh-pages/images/README.JPG" align="center" width="100%">](https://login.salesforce.com/)
+[<img src="https://raw.githubusercontent.com/mailtoharshit/Weave/gh-pages/images/README.JPG" align="center" width="100%">](http://mailtoharshit.github.io/Weave/)
 
 # [Weave](http://mailtoharshit.github.io/Weave/)    [![Join the chat at https://gitter.im/mailtoharshit/Weave](https://badges.gitter.im/mailtoharshit/Weave.svg)](https://gitter.im/mailtoharshit/Weave?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ====
