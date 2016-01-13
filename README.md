@@ -14,14 +14,13 @@ A `.snippet` magician. Weave generates `.code-snippets` so that you type less an
 * __Modern__: Uses Material Design Layout and abrest of latest of frameworks.
 
 
-## Before & After
+## Before & After 
 
-![before and after 1](http://g.recordit.co/Kw2R4zfIIN.gif)
+![Visualforce BoilerPlate Code](http://g.recordit.co/Kw2R4zfIIN.gif)
+![Apex  BoilerPlate Code](http://g.recordit.co/5k9mHgUNOb.gif)
 
-http://g.recordit.co/Kw2R4zfIIN.gif
-http://g.recordit.co/89JzgDI5Gx.gif
-http://mailtoharshit.github.io/Weave/images/vf_custom.gif
-## Features
+
+## What can it do ?
 
 - Generates custom and standard visualforce boilerplate template
 - Generates Material design ready templates
@@ -35,9 +34,26 @@ http://mailtoharshit.github.io/Weave/images/vf_custom.gif
 
 ## Installation
 
-### Option 1: PackageControl.io 
+1. [Install Package Control](https://sublime.wbond.net/installation)
+2. Install Weave
 
-In
+    | Platform | Install Command                                                      |
+    | -------- | -------------------------------------------------------------------- |
+    | Mac      | `cmd+shift+p`&nbsp;&nbsp; → Package Control: Install Package → Weave |
+    | Linux    | `ctrl+shift+p` → Package Control: Install Package → Weave            |
+    | Windows  | `ctrl+shift+p` → Package Control: Install Package → Weave            |
+
+    ![Installing the Weave Package](http://g.recordit.co/mu0axEJZCo.gif)
+    
+3. (Recommended) Disable the default CSS package
+
+    | Platform | Disable Command                                                      |
+    | -------- | -------------------------------------------------------------------- |
+    | Mac      | `cmd+shift+p`&nbsp;&nbsp; → Package Control: Disable Package → Weave |
+    | Linux    | `ctrl+shift+p` → Package Control: Disable Package → Weave            |
+    | Windows  | `ctrl+shift+p` → Package Control: Disable Package → Weave            |
+
+    ![Disabling Weave package]()
 
 ## Install
 
