@@ -7,7 +7,6 @@
 	        <meta name="viewport" content="width=device-width, initial-scale=1">
 	        <!-- Latest compiled and minified CSS -->
 			<link href='https://rawgit.com/mailtoharshit/ForceGrid/master/source/forcegrid.css' rel='stylesheet' type='text/css' />
-			<link href="{!URLFOR($Resource.ISI_Static, 'css/forcegrid.css')}" type="text/css" rel="stylesheet" />
 		</head>
 	    <body>
 	        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
