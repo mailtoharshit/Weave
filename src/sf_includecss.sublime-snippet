@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<apex:stylesheet value="{!URLFOR($Resource.${1:StaticFolder}, 'your.css')}"/>
+<apex:stylesheet value="{!URLFOR($Resource.${1:StaticFolder}, 'your.css')}" />
 ]]></content>
     <tabTrigger>vf_includecss</tabTrigger>
     <description>Weave Import CSS from Static Resource</description>
