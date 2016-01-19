@@ -2,7 +2,7 @@
 	<content>
 System.assertEquals(${1:expected}, ${2:actual});
 	</content>
-<tabTrigger>Assert</tabTrigger>
+<tabTrigger>assert</tabTrigger>
 	<scope>source.apex</scope>
 	<description>Weave Apex System.Assert</description>
 </snippet>

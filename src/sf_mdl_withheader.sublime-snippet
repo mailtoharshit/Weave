@@ -1,54 +1,53 @@
 <snippet>
     <content><![CDATA[
 <apex:page showheader="false" sidebar="false" standardStylesheets="false">
-  <html>
-    <head>
+    <html>
+        <head>
             <!-- ---------- Material Design with Header  --------- -->  
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css"/>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+            <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
             <!-- Import MDL-Lite Javascript from RawGit -->
             <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
-    </head>
-    <body>
-      <!-- Uses a header that scrolls with the text, rather than staying
-        locked at the top -->
-      <div class="mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button">
-        <header class="mdl-layout__header mdl-layout__header--scroll">
-          <div class="mdl-layout__header-row">
-            <!-- Title -->
-            <span class="mdl-layout-title">Title</span>
-            <!-- Add spacer, to align navigation to the right -->
-            <div class="mdl-layout-spacer"></div>
-            <!-- Navigation -->
-            <nav class="mdl-navigation">
-              <a class="mdl-navigation__link" href="">Link</a>
-              <a class="mdl-navigation__link" href="">Link</a>
-              <a class="mdl-navigation__link" href="">Link</a>
-              <a class="mdl-navigation__link" href="">Link</a>
-            </nav>
-          </div>
-        </header>
-        <div class="mdl-layout__drawer">
-          <span class="mdl-layout-title">Title</span>
-          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-          </nav>
-        </div>
-        <main class="mdl-layout__content">
-          <div class="page-content">
-            <!-- Your content goes here -->
-          </div>
-        </main>
-      </div>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-      <script src="//storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js" ></script>
-    </body>
-  </html>
+        </head>
+        <body>
+            <!-- Uses a header that scrolls with the text, rather than staying locked at the top -->
+            <div class="mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button">
+                <header class="mdl-layout__header mdl-layout__header--scroll">
+                    <div class="mdl-layout__header-row">
+                        <!-- Title -->
+                        <span class="mdl-layout-title">Title</span>
+                        <!-- Add spacer, to align navigation to the right -->
+                        <div class="mdl-layout-spacer"></div>
+                        <!-- Navigation -->
+                        <nav class="mdl-navigation">
+                            <a class="mdl-navigation__link" href="">Link</a>
+                            <a class="mdl-navigation__link" href="">Link</a>
+                            <a class="mdl-navigation__link" href="">Link</a>
+                            <a class="mdl-navigation__link" href="">Link</a>
+                        </nav>
+                    </div>
+                </header>
+                <div class="mdl-layout__drawer">
+                    <span class="mdl-layout-title">Title</span>
+                    <nav class="mdl-navigation">
+                        <a class="mdl-navigation__link" href="">Link</a>
+                        <a class="mdl-navigation__link" href="">Link</a>
+                        <a class="mdl-navigation__link" href="">Link</a>
+                        <a class="mdl-navigation__link" href="">Link</a>
+                    </nav>
+                </div>
+                <main class="mdl-layout__content">
+                    <div class="page-content">
+                        <!-- Your content goes here -->
+                    </div>
+                </main>
+            </div>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+            <script src="//storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js" ></script>
+        </body>
+    </html>
 </apex:page>
 ]]></content>
     <tabTrigger>vf_mdl_withheader</tabTrigger>
