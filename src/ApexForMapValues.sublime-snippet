@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+for(String key:${1:$Map}.keySet())
+{ 
+System.debug(${1:$Map}.get(key));
+}
+]]></content>
+    <tabTrigger>forMapValues</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Weave Loop in Map on Values</description>
+</snippet>
