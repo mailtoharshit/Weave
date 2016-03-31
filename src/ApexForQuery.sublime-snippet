@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+for (${1:sObject} obj : [SELECT ${2:fields} FROM ${1:sObject} WHERE ${3:condition})
+{
+	${4}
+}
+]]></content>
+    <tabTrigger>forQuery</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Weave For Loop with SOQL query</description>
+</snippet>
