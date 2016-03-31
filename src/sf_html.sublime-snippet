@@ -17,5 +17,5 @@
 </apex:page>
 ]]></content>
     <tabTrigger>vf_html</tabTrigger>
-    <description>Weave HTML Template</description>
+    <description>Weave Spin a HTML Template</description>
 </snippet>
