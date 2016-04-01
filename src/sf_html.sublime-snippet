@@ -9,7 +9,7 @@
             <!-- Static Resource CSS -->
             <link rel="stylesheet" href="{!URLFOR($Resource.style_resources, 'src/css/styles.css')}">
             <!-- Static Resource Javascript -->
-            <script type="text/javascript" async="true" src="{!URLFOR(.YourJavascriptFile}, 'src/js/script.js')}"></script>
+            <script type="text/javascript" async="true" src="{!URLFOR(.YourJavascriptFile}, 'src/js/script.js')}"></script> 
         </head>
         <body>
         </body>

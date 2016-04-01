@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-for (${1:sObject} obj : [SELECT ${2:fields} FROM ${1:sObject} WHERE ${3:condition})
+for (${1:sObject} obj : [SELECT ${2:fields} FROM ${1:sObject} WHERE ${3:condition}])
 {
 	${4}
 }
