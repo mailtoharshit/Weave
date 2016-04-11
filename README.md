@@ -1,5 +1,6 @@
+<p align="center">
+[<img src="https://raw.githubusercontent.com/mailtoharshit/Weave/gh-pages/images/logo.png" width="30%" height="30%">](http://mailtoharshit.github.io/Weave/)
 
-[<img src="https://raw.githubusercontent.com/mailtoharshit/Weave/gh-pages/images/logo.png" align="center" width="30%" height="30%">](http://mailtoharshit.github.io/Weave/)
 
 # [Weave](http://mailtoharshit.github.io/Weave/)    [![Join the chat at https://gitter.im/mailtoharshit/Weave](https://badges.gitter.im/mailtoharshit/Weave.svg)](https://gitter.im/mailtoharshit/Weave?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Launch Project Page [here](http://mailtoharshit.github.io/Weave/)
