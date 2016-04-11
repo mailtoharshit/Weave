@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-/** 
+/**  
  * ${1:BatchClassName}
  * @description ${2:A description of the BatchClass }
  */
