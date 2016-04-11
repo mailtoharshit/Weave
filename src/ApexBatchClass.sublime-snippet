@@ -1,0 +1,64 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:BatchClassName}
+ * @description ${2:A description of the BatchClass }
+ */
+
+global with sharing class ${1:BatchClassName} implements Database.Batchable,Database.Stateful,Schedulable
+{
+
+  /**
+    * Global Member variables   
+  	*/
+  private Boolean errorFound = false;
+
+  /**
+   * Contructor
+   */
+  public ${1:BatchClassName}(){
+
+  } 
+
+  /**
+   * Start Method : Fetching Record to be processed
+   */
+  global  Database.QueryLocator start(Database.BatchableContext BC) {
+      String query = 'Select Id,Name,ALL_YOUR_NEEDED_FIELDS From YOUR_SOBJECT';
+      return Database.getQueryLocator(query);
+  }
+
+  /**
+   * Execute Method: Processing gathered records
+   */    
+  global void execute(Database.BatchableContext BC, List < sObject > scope) {
+      SampleBatchClassHandler.ProcessBatch(List<YOUR_SOBJECT> (scope));
+  }
+
+  /**
+   * Finish method to notify the team for any errors in the batch. 
+   */ 
+  global void finish(Database.BatchableContext BC) {
+      if(errorFound){
+          Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
+          mail.setToAddresses(new List<String>{'${3:sendEmailTo}'});
+          mail.setReplyTo('${4:sendReplyTo}');
+          mail.setSenderDisplayName('Apex Batch Processing Failures');
+          mail.setSubject(' ${1:BatchClassName} Batch Processing failures');
+          mail.setHTMLBody('${1:BatchClassName} failed. Please check Apex Log for errors.');
+          Messaging.sendEmail(new Messaging.Singleemailmessage [] {mail});
+      } 
+  }
+
+  /**
+   * Execute Method : Schedule Batch Class
+   */
+  global void execute(SchedulableContext sc) {
+      id batchId = Database.executeBatch(new ${1:BatchClassName}(),10 );        
+  }
+}
+]]></content>
+	<tabTrigger>Batch</tabTrigger>
+	<description>Weave Batch Class </description>
+	<scope>source.apex</scope>
+</snippet>

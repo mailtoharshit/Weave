@@ -9,20 +9,20 @@
 
     <!-- JavaScript to make Remote Objects calls -->
     <script>
-        var ${6: Name of Javascript Function} = function(){
+        var ${3: Name of Javascript Function} = function(){
             // Create a new Remote Object
-            var rec = new SObjectModel.Warehouse();
+            var rec = new SObjectModel.${1:sObject}();
             
             // Use the Remote Object to query records
-            rec.retrieve({ limit: ${3:limitRecords} }, function(err, records, event){
+            rec.retrieve({ limit: ${4:limitRecords} }, function(err, records, event){
                 if(err) {
                     alert(err.message);
                 }
                 else {
-                    var ul = document.getElementById("${4:divtoAttach}");
+                    var ul = document.getElementById("${5:divtoAttach}");
                     records.forEach(function(record) {
                         // Build the text for a warehouse line item
-                        var recText = record.get("${5:fieldQuried}");
+                        var recText = record.get("${6:fieldQuried}");
                         // Add the line item to the recordList list
                         var li = document.createElement("li");
                         li.appendChild(document.createTextNode(recText));
@@ -32,10 +32,9 @@
             });
         };
     </script>
-    <ul id="${4:divtoAttach}">
+    <ul id="${5:divtoAttach}">
     </ul>
 ]]></content>
     <tabTrigger>RemoteRetrieve</tabTrigger>
-    <scope>source.apex</scope>
     <description>Weave Retrieve Remote Object</description>
 </snippet>
