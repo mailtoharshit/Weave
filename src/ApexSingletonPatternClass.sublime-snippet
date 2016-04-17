@@ -1,0 +1,38 @@
+<snippet>
+  <content><![CDATA[
+<snippet>
+  <content><![CDATA[
+/**
+ * Name : ${1:ClassName}
+ * Description : ${2:Class Description}
+ */
+ public class ${1:ClassName} {
+    // private static variable referencing the class
+    private static ${1:ClassName} instance = null;
+    public String id {get;private set;} // the id of the record type
+
+    /**
+     * Constructor is private and initializes the id of the record type
+     */
+    private ${1:ClassName}(){
+        id = Account.sObjectType.getDescribe()
+            .getRecordTypeInfosByName().get('Foo').getRecordTypeId();
+    }
+    /**
+     * static method that returns the instance of the record type
+     */
+    public static ${1:ClassName} getInstance(){
+        /**
+         * lazy load the record type - only initialize if it doesn't already exist
+         */
+        if(instance == null) {
+            instance = new ${1:ClassName}();
+        }
+        return instance;
+    }
+}
+]]></content>
+  <tabTrigger>singleton</tabTrigger>
+  <description>Weave Singleton Pattern Class </description>
+  <scope>source.apex</scope>
+</snippet>

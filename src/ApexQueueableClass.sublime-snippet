@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/**  
+ * ${1:QueuableClassName}
+ * @description ${2:A description of the QueuableClass}
+ */
+public class QueueableClass implements Queueable {
+    public void execute(QueueableContext SC) {
+        ${3: //Logic Goes Here}
+    }
+}
+]]></content>
+	<tabTrigger>Queue</tabTrigger>
+	<description>Weave Queue Class </description>
+	<scope>source.apex</scope>
+</snippet>

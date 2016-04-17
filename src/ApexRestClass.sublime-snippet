@@ -1,0 +1,56 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Name : ${1:ServiceEndPoint}
+ * Description : ${2:Service Description}
+ * Methods :
+ *   1. GET : ${3:GetMethodDescription}
+ *   2. POST : ${4:PostMethodDescription}
+ *   3. PATCH : ${5:PatchMethodDescription}
+ *   4. DELETE : ${6:DeleteMethodDescription}
+ */
+
+@RestResource(urlMapping = '/${1:ServiceEndPoint}/*')
+global class ${7:ServiceClassName} 
+{
+    /**
+     * GET - ${3:GetMethodDescription}
+     */
+    @HttpGet
+    global static void ${1:ServiceEndPoint}RestGet() {
+        //parse request parameter from URL
+        RestRequest req = RestContext.request;
+        RestResponse res = RestContext.response;
+        String urlParameter = req.requestURI.substring(req.requestURI.lastIndexOf('/') + 1);
+
+        //Business Logic   
+    }
+    /**
+     * POST - ${4:PostMethodDescription}
+     */
+    @HttpPost
+    global static void ${1:ServiceEndPoint}RestPost() {
+        RestRequest req = RestContext.request;
+        RestResponse res = RestContext.response;
+        String urlParameter = req.requestURI.substring(req.requestURI.lastIndexOf('/') + 1);
+
+        //Business Logic
+    }
+
+    /**
+     * PATCH - ${5:PatchMethodDescription}
+     */
+    @HttpPost
+    global static void ${1:ServiceEndPoint}RestPatch() {
+        RestRequest req = RestContext.request;
+        RestResponse res = RestContext.response;
+        String urlParameter = req.requestURI.substring(req.requestURI.lastIndexOf('/') + 1);
+
+        //Business Logic
+    }
+}
+]]></content>
+  <tabTrigger>rest</tabTrigger>
+  <description>Weave REST API Class </description>
+  <scope>source.apex</scope>
+</snippet>
