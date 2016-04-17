@@ -50,7 +50,7 @@ global class ${7:ServiceClassName}
     }
 }
 ]]></content>
-  <tabTrigger>rest</tabTrigger>
+  <tabTrigger>Rest</tabTrigger>
   <description>Weave REST API Class </description>
   <scope>source.apex</scope>
 </snippet>

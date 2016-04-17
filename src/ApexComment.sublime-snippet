@@ -5,7 +5,7 @@
  */
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>/*</tabTrigger>
+	<tabTrigger>//</tabTrigger>
 	<description>Weave Comment </description>
 	<scope>source.apex</scope>
 </snippet>

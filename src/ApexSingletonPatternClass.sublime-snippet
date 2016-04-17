@@ -1,7 +1,5 @@
 <snippet>
   <content><![CDATA[
-<snippet>
-  <content><![CDATA[
 /**
  * Name : ${1:ClassName}
  * Description : ${2:Class Description}
@@ -32,7 +30,7 @@
     }
 }
 ]]></content>
-  <tabTrigger>singleton</tabTrigger>
+  <tabTrigger>Singleton</tabTrigger>
   <description>Weave Singleton Pattern Class </description>
   <scope>source.apex</scope>
 </snippet>
