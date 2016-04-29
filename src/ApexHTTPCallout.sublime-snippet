@@ -1,35 +1,35 @@
 <snippet>
 	<content><![CDATA[
-/**  
- * RestCalloutClass
- * @description A description of the RestCalloutClass 
+/*  
+ *  ${1:RestCalloutClassName}
+ *  @description : ${2:A description of the RestCalloutClass}
  */
 
-public class RestCalloutClass {
+public class ${1:RestCalloutClassName} {
     
-    /**
-      *  Method : Setting authorization and doing callout
+     /*
+      *  Method : ${3:A description of the Method}
       */
 
-    public void restCallout(){
+    public void ${4:MethodName}(){
 
-        //Set the user name and password required to access the endpoint
-        String userName = 'My_User_Name';
-        String password = 'My_P@ssword';
-        String endPointUrl = System.Label.Endpoint_URL; 
+        // Set the user name and password required to access the endpoint
+        String userName = System.Label.${5:UserName};
+        String password = System.Label.${6:Password};
+        String endPointUrl = System.Label.${7:Endpoint_URL}; 
 
         Blob headerValue = Blob.valueOf(userName + ':' + password);
         String authorizationHeader = 'Basic ' + EncodingUtil.base64Encode(Blob.valueOf(userName))
 
-        //Create a new http request and set the end point, 
-        //authorization parameters and return content type
+        // Create a new http request and set the end point, 
+        // authorization parameters and return content type
         HttpRequest req = new HttpRequest();
         req.setEndpoint(endPointUrl);
         req.setMethod('GET');
         req.setHeader('Authorization', authorizationHeader);
         req.setHeader('Content-Type', 'application/json');
        
-        //Create a new http object to send the request object  
+        // Create a new http object to send the request object  
         Http http = new Http();
         HTTPResponse res = http.send(req);
         String result = res.getBody();
@@ -37,7 +37,7 @@ public class RestCalloutClass {
     }
 }
 ]]></content>
-	<tabTrigger>HTTPCallout</tabTrigger>
+	<tabTrigger>HttpCallout</tabTrigger>
 	<description>Weave HTTP Callout Class</description>
 	<scope>source.apex</scope>
 </snippet>
