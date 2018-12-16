@@ -6,7 +6,7 @@
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <!-- Latest compiled and minified CSS -->
-            <link href='https://rawgit.com/mailtoharshit/ForceGrid/master/source/forcegrid.css' rel='stylesheet' type='text/css' />
+            <link href='https://combinatronics.com/mailtoharshit/ForceGrid/master/source/forcegrid.css' rel='stylesheet' type='text/css' />
         </head>
         <body>
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
